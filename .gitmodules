@@ -1,0 +1,3 @@
+[submodule "DotaResponsesRedditBot"]
+	path = DotaResponsesRedditBot
+	url = git@github.com:Jonarzz/DotaResponsesRedditBot.git
