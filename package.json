@@ -1,0 +1,21 @@
+{
+  "name": "dota-reply-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "db-ui": "sqlite_web bot.db",
+    "parse": "python3 DotaResponsesRedditBot/setup.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "vanawy",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "sqlite3": "^5.0.8",
+    "telegraf": "^4.8.5"
+  }
+}
